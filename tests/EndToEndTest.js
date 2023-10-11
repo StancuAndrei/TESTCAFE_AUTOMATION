@@ -8,7 +8,9 @@ import cartpage from '../pages/CartPage'
 import checkoutpage from '../pages/CheckoutPage'
 import myorderpage from '../pages/MyOrdersPage'
 
+//this gets the url from resources folder
 const URL = constants.getEnvironmentalURL();
+
 const getCurrentURL = ClientFunction(() => window.location.href);
 var randomNumber = Math.floor(Math.random() * 1000);
 var userEmail = 'testUser' + randomNumber + '@test.com';
